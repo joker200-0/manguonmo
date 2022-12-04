@@ -1,7 +1,11 @@
 #include <iostream>
 using namespace std;
-int tong(int a, int b);
-int hieu(int a, int b);
+int hieu(int a, int b)
+{
+	int sum = 0;
+	sum = a - b;
+	return sum;
+}
 
 int main()
 {
