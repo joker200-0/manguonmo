@@ -6,7 +6,20 @@ int hieu(int a, int b)
 	sum = a - b;
 	return sum;
 }
-
+int Kiemtrasochanle(int a,int b)
+{
+	if ( a % 2 == 0)
+	{
+		return 1;
+	}
+	if (b % 2 == 0)
+	{
+		return 1;
+	} else 
+	{
+		return 0;
+	}
+}
 int main()
 {
 	int a, b;
